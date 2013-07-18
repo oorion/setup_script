@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 name="Orion Osborn"
 email="orion.osborn@gmail.com"
+project="bitstarter"
 
 git config --global user.name $name
 git config --global user.email $email
@@ -13,4 +14,5 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 
 git clone https://github.com/oorion/bitstarter/
-cd bitstarter
+cd $project
+npm install
