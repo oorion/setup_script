@@ -13,6 +13,6 @@ sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install -y nodejs
 
-git clone https://github.com/oorion/bitstarter/
+git clone https://github.com/oorion/$project
 cd $project
 npm install
